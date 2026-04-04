@@ -1,0 +1,46 @@
+spritetypes = {
+	spriteType = {
+		name = "GFX_germany_air_force"
+		texturefile = "gfx/event_picture/germany_air_force.png"
+	}
+	spriteType = {
+		name = "forest"
+		texturefile = "gfx/event_picture/forest.png"
+	}
+	spriteType = {
+		name = "forest_2"
+		texturefile = "gfx/event_picture/forest_2.png"
+	}
+	spriteType = {
+		name = "tank"
+		texturefile = "gfx/event_picture/tank.png"
+	}
+	spriteType = {
+		name = "zhdanov"
+		texturefile = "gfx/event_picture/zhdanov.png"
+	}
+	spriteType = {
+		name = "Syktyvkar"
+		texturefile = "gfx/event_picture/Syktyvkar.png"
+	}
+	spriteType = {
+		name = "star"
+		texturefile = "gfx/event_picture/star.png"
+	}
+	spriteType = {
+		name = "momoi_1"
+		texturefile = "gfx/event_picture/momoi_1.png"
+	}
+	spriteType = {
+		name = "kardashev"
+		texturefile = "gfx/event_picture/kardashev.png"
+	}
+	spriteType = {
+		name = "tabi"
+		texturefile = "gfx/event_picture/tabi.png"
+	}
+	spriteType = {
+		name = "qianxinian"
+		texturefile = "gfx/ideas_picture/qianxinian.png"
+	}
+}

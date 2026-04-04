@@ -1,0 +1,81 @@
+defined_text = {
+	name = TheMostReadyParty
+	text = {
+		trigger = {
+			AND = {
+				check_variable = {
+					KOM_left_ready > KOM_right_ready
+				}
+				check_variable = {
+					KOM_left_ready > KOM_center_ready
+				}
+			}	
+		}
+		localization_key = KOM_left_lead	
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = {
+					KOM_right_ready > KOM_left_ready
+				}
+				check_variable = {
+					KOM_right_ready > KOM_center_ready
+				}
+			}	
+		}
+		localization_key = KOM_right_lead	
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = {
+					KOM_center_ready > KOM_right_ready
+				}
+				check_variable = {
+					KOM_center_ready > KOM_left_ready
+				}
+			}	
+		}
+		localization_key = KOM_center_lead	
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = {
+					KOM_center_ready = KOM_right_ready
+				}
+				check_variable = {
+					KOM_center_ready > KOM_left_ready
+				}
+			}	
+		}
+		localization_key = KOM_center_right_lead	
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = {
+					KOM_center_ready = KOM_left_ready
+				}
+				check_variable = {
+					KOM_center_ready > KOM_right_ready
+				}
+			}	
+		}
+		localization_key = KOM_center_left_lead	
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = {
+					KOM_left_ready = KOM_right_ready
+				}
+				check_variable = {
+					KOM_left_ready > KOM_center_ready
+				}
+			}	
+		}
+		localization_key = KOM_left_right_lead	
+	}
+}

@@ -1,0 +1,13 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            KOM = {
+                country_event = {id = momoi.0}
+                set_variable = {KOM_self_ready = 100}
+                set_variable = {momoi_mental_condition = 1}
+                add_to_variable = { army_attack = 0.05 }
+                force_update_dynamic_modifier = YES
+            }
+            }
+        }
+}

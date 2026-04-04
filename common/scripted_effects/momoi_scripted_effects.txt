@@ -1,0 +1,90 @@
+KOM_momoi_left_ready_change = {
+	add_to_variable = {KOM_left_ready = KOM_ready_temp}
+	if = {
+		limit = {
+			check_variable = { KOM_ready_temp < 0 }
+		}
+		multiply_temp_variable = { KOM_ready_temp = -1 }
+		custom_effect_tooltip = KOM_left_ready_decrease_tt
+	}
+	else = {
+		custom_effect_tooltip = KOM_left_ready_increase_tt
+	}
+	clamp_variable = {
+		var = KOM_left_ready
+		min = 0
+		max = 100
+	}
+}
+KOM_momoi_right_ready_change = {
+	add_to_variable = {KOM_right_ready = KOM_ready_temp}
+	if = {
+		limit = {
+			check_variable = { KOM_ready_temp < 0 }
+		}
+		multiply_temp_variable = { KOM_ready_temp = -1 }
+		custom_effect_tooltip = KOM_right_ready_decrease_tt
+	}
+	else = {
+		custom_effect_tooltip = KOM_right_ready_increase_tt
+	}
+	clamp_variable = {
+		var = KOM_right_ready
+		min = 0
+		max = 100
+	}
+}
+KOM_momoi_center_ready_change = {
+	add_to_variable = {KOM_center_ready = KOM_ready_temp}
+	if = {
+		limit = {
+			check_variable = { KOM_ready_temp < 0 }
+		}
+		multiply_temp_variable = { KOM_ready_temp = -1 }
+		custom_effect_tooltip = KOM_center_ready_decrease_tt
+	}
+	else = {
+		custom_effect_tooltip = KOM_center_ready_increase_tt
+	}
+	clamp_variable = {
+		var = KOM_center_ready
+		min = 0
+		max = 100
+	}
+}
+KOM_momoi_self_ready_change = {
+	add_to_variable = {KOM_self_ready = KOM_ready_temp}
+	if = {
+		limit = {
+			check_variable = { KOM_ready_temp < 0 }
+		}
+		multiply_temp_variable = { KOM_ready_temp = -1 }
+		custom_effect_tooltip = KOM_self_ready_decrease_tt
+	}
+	else = {
+		custom_effect_tooltip = KOM_self_ready_increase_tt
+	}
+	clamp_variable = {
+		var = KOM_self_ready
+		min = 0
+		max = 100
+	}
+}
+KOM_momoi_mental_condition_change = {
+	add_to_variable = {momoi_mental_condition = momoi_mental_condition_temp}
+	if = {
+		limit = {
+			check_variable = { momoi_mental_condition_temp < 0 }
+		}
+		multiply_temp_variable = { momoi_mental_condition_temp = -1 }
+		custom_effect_tooltip = momoi_mental_condition_decrease_tt
+	}
+	else = {
+		custom_effect_tooltip = momoi_mental_condition_increase_tt
+	}
+	clamp_variable = {
+		var = momoi_mental_condition
+		min = 1
+		max = 100
+	}
+}

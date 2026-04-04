@@ -1,0 +1,5 @@
+gui_types = {
+	pir_chart = {
+		
+	}
+}

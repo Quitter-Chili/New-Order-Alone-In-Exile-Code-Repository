@@ -1,0 +1,55 @@
+defined_text = {
+	name = MomoiMentalCondition
+	text = {
+		trigger = {
+			AND = {
+				check_variable = {
+					momoi_mental_condition > 0
+				}
+				check_variable = {
+					momoi_mental_condition < 26
+				}
+			}	
+		}
+		localization_key = mental_normal
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = {
+					momoi_mental_condition > 25
+				}
+				check_variable = {
+					momoi_mental_condition < 51
+				}
+			}	
+		}
+		localization_key = mental_a_little_bad
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = {
+					momoi_mental_condition > 50
+				}
+				check_variable = {
+					momoi_mental_condition < 76
+				}
+			}	
+		}
+		localization_key = mental_bad
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = {
+					momoi_mental_condition > 75
+				}
+				check_variable = {
+					momoi_mental_condition < 101
+				}
+			}	
+		}
+		localization_key = mental_crazy
+	}
+}

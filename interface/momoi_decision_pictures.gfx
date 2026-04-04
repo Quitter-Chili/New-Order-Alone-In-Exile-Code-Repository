@@ -1,0 +1,8 @@
+spritetypes = {
+	spriteType = {
+	 	name = "GFX_decision_momoi_condition"
+		texturefile = "gfx/interface/decision/decision_images/momoi_condition.png"
+		legacy_lazy_load = no
+	}
+	
+}

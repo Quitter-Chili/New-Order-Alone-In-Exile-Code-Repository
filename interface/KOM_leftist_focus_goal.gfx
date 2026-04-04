@@ -1,0 +1,90 @@
+spritetypes = {
+	spriteType = {
+	 	name = "GFX_something_changed"
+		texturefile = "gfx/goals/something_changed.png"
+	}
+	spriteType = {
+		name = "GFX_zhdanov_s_plan"
+	    texturefile = "gfx/goals/zhdanov_s_plan.png"
+    }
+	spriteType = {
+		name = "GFX_communicate_with_bukharina"
+	    texturefile = "gfx/goals/communicate_with_bukharina.png"
+    }
+	spriteType = {
+		name = "GFX_coordinate_susulov"
+	    texturefile = "gfx/goals/coordinate_susulov.png"
+    }
+	spriteType = {
+		name = "GFX_show_time"
+	    texturefile = "gfx/goals/show_time.png"
+    }
+	spriteType = {
+		name = "GFX_rightist_s_plot"
+	    texturefile = "gfx/goals/rightist_s_plot.png"
+    }
+	spriteType = {
+		name = "GFX_information_line"
+	    texturefile = "gfx/goals/information_line.png"
+    }
+	spriteType = {
+		name = "GFX_order_angel"
+	    texturefile = "gfx/goals/order_angel.png"
+    }
+	spriteType = {
+		name = "GFX_add_paramillitarys"
+	    texturefile = "gfx/goals/add_paramillitarys.png"
+    }
+	spriteType = {
+		name = "GFX_suslov_s_opinion"
+	    texturefile = "gfx/goals/suslov_s_opinion.png"
+    }
+	spriteType = {
+		name = "GFX_zhdanov_s_opinion"
+	    texturefile = "gfx/goals/zhdanov_s_opinion.png"
+    }
+	spriteType = {
+		name = "GFX_relax_constraints"
+	    texturefile = "gfx/goals/relax_constraints.png"
+    }
+	spriteType = {
+		name = "GFX_harder_protect"
+	    texturefile = "gfx/goals/harder_protect.png"
+    }
+	spriteType = {
+		name = "GFX_in_the_school"
+	    texturefile = "gfx/goals/in_the_school.png"
+    }
+	spriteType = {
+		name = "GFX_in_the_ResearchInstitute"
+	    texturefile = "gfx/goals/in_the_ResearchInstitute.png"
+    }
+	spriteType = {
+		name = "GFX_centerist_s_secret"
+	    texturefile = "gfx/goals/centerist_s_secret.png"
+    }
+	spriteType = {
+		name = "GFX_the_army"
+	    texturefile = "gfx/goals/the_army.png"
+    }
+	spriteType = {
+		name = "GFX_the_Cheka"
+	    texturefile = "gfx/goals/the_Cheka.png"
+    }
+	spriteType = {
+		name = "GFX_the_far_october"
+	    texturefile = "gfx/goals/the_far_october.png"
+    }
+	spriteType = {
+		name = "GFX_stare_at_momoi"
+	    texturefile = "gfx/goals/stare_at_momoi.png"
+    }
+	spriteType = {
+		name = "GFX_new_weapon"
+	    texturefile = "gfx/goals/new_weapon.png"
+    }
+	spriteType = {
+		name = "GFX_rebuild_red_guard"
+	    texturefile = "gfx/goals/rebuild_red_guard.png"
+    }
+}

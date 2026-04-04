@@ -1,0 +1,8 @@
+#才羽桃井的个人情况决议
+momoi_condition = {
+	visible = {
+		has_country_flag = has_momoi
+	}
+	priority = 114514
+	visible_when_empty = yes
+}	

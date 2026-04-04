@@ -1,0 +1,143 @@
+#才羽桃井的个人情况决议
+momoi_condition = {
+	momoi_become_crazy = {
+		visible = {
+			has_country_flag = has_momoi
+		}
+		activation = {
+			custom_trigger_tooltip = {
+				tooltip = momoi.mental_condition_recover
+				check_variable = { momoi_mental_condition > 75 }
+			}
+		}
+		allowed = {
+			tag = KOM
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = momoi.mental_condition_recover
+				check_variable = { momoi_mental_condition < 76 }
+			}
+		}
+	    is_good = no
+		days_mission_timeout = 30
+		timeout_effect = {
+			add_political_power = -25
+			country_event = {id = momoi.10}
+		}
+	}
+	momoi_decisions = {
+		visible = {
+			has_country_flag = momoi_alive
+		}
+		available = {
+			always = no
+	    }
+	}
+	russian_lesson = {
+		cost = 10
+		days_remove = 7
+		visible = {
+			has_country_flag = momoi_alive
+		}
+		available = {
+			NOT = {
+				has_country_flag = momoi_has_plan
+			}
+		}
+		complete_effect = {  
+			set_country_flag = momoi_has_plan
+		}
+		remove_effect = {
+			set_temp_variable = { KOM_ready_temp = +5 }
+			KOM_momoi_left_ready_change = yes
+			set_temp_variable = { KOM_ready_temp = -5 }
+			KOM_momoi_self_ready_change = yes
+			clr_country_flag = momoi_has_plan
+		}
+	}
+	trip = {
+		cost = 15
+		days_remove = 10
+		visible = {
+			has_country_flag = momoi_alive
+		}
+		available = {
+			NOT = {
+				has_country_flag = momoi_has_plan
+			}
+		}
+		complete_effect = {  
+			set_country_flag = momoi_has_plan
+		}
+		remove_effect = {
+			clr_country_flag = momoi_has_plan
+			set_temp_variable = { momoi_mental_condition_temp = -25 }
+        	KOM_momoi_mental_condition_change = yes
+		}
+	}
+	debug_decisions = {
+		visible = {
+			is_debug = yes
+			has_country_flag = momoi_alive
+		}
+		available = {
+			always = no
+	    }
+	}
+	improve_momoi_mental_condition = {
+		days_remove = 1
+		visible = {
+			is_debug = yes
+			has_country_flag = momoi_alive
+		}
+		complete_effect = {
+			set_temp_variable = { momoi_mental_condition_temp = -25 }
+        	KOM_momoi_mental_condition_change = yes
+		}
+	}
+	worsen_momoi_mental_condition = {
+		days_remove = 1
+		visible = {
+			is_debug = yes
+			has_country_flag = momoi_alive
+		}
+		complete_effect = {
+			set_temp_variable = { momoi_mental_condition_temp = 25 }
+        	KOM_momoi_mental_condition_change = yes
+		}
+	}
+	Lenin_s_favor = {
+		days_remove = 1
+		visible = {
+			is_debug = yes
+			has_country_flag = momoi_alive
+		}
+		complete_effect = {
+			set_temp_variable = { KOM_ready_temp = 100 }
+        	KOM_momoi_left_ready_change = yes
+		}
+	}
+	god_s_protection_of_Alexei = {
+		days_remove = 1
+		visible = {
+			is_debug = yes
+			has_country_flag = momoi_alive
+		}
+		complete_effect = {
+			set_temp_variable = { KOM_ready_temp = 100 }
+        	KOM_momoi_right_ready_change = yes
+		}
+	}
+	Russian_democratic_light = {
+		days_remove = 1
+		visible = {
+			is_debug = yes
+			has_country_flag = momoi_alive
+		}
+		complete_effect = {
+			set_temp_variable = { KOM_ready_temp = 100 }
+        	KOM_momoi_center_ready_change = yes
+		}
+	}
+}

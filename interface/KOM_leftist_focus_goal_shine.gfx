@@ -1,0 +1,662 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_something_changed_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/goals/something_changed.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/goals/something_changed.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/goals/something_changed.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+	spriteType = {
+        name = GFX_zhdanov_s_plan_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/goals/zhdanov_s_plan.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/goals/zhdanov_s_plan.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/goals/zhdanov_s_plan.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+	spriteType = {
+        name = GFX_coordinate_susulov_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/goals/coordinate_susulov.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/goals/coordinate_susulov.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/goals/coordinate_susulov.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+	spriteType = {
+        name = GFX_communicate_with_bukharina_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/goals/communicate_with_bukharina.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/goals/communicate_with_bukharina.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/goals/communicate_with_bukharina.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_show_time_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/goals/show_time.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/goals/show_time.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/goals/show_time.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_rightist_s_plot_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/goals/rightist_s_plot.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/goals/rightist_s_plot.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/goals/rightist_s_plot.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_order_angel_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/goals/order_angel.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/goals/order_angel.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/goals/order_angel.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_information_line_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/goals/information_line.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/goals/information_line.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/goals/information_line.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_add_paramillitarys_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/goals/add_paramillitarys.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/goals/add_paramillitarys.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/goals/add_paramillitarys.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_suslov_s_opinion_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/goals/suslov_s_opinion.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/goals/suslov_s_opinion.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/goals/suslov_s_opinion.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_zhdanov_s_opinion_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/goals/zhdanov_s_opinion.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/goals/zhdanov_s_opinion.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/goals/zhdanov_s_opinion.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_relax_constraints_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/goals/relax_constraints.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/goals/relax_constraints.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/goals/relax_constraints.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_harder_protect_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/goals/harder_protect.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/goals/harder_protect.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/goals/harder_protect.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_in_the_school_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/goals/in_the_school.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/goals/in_the_school.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/goals/in_the_school.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_in_the_ResearchInstitute_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/goals/in_the_ResearchInstitute.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/goals/in_the_ResearchInstitute.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/goals/in_the_ResearchInstitute.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_centerist_s_secret_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/goals/centerist_s_secret.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/goals/centerist_s_secret.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/goals/centerist_s_secret.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_the_army_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/goals/the_army.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/goals/the_army.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/goals/the_army.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_the_Cheka_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/goals/the_Cheka.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/goals/the_Cheka.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/goals/the_Cheka.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_the_far_octobershine # Change the name, note to keep _shine in the end
+        texturefile = gfx/goals/the_far_october.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/goals/the_far_october.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/goals/the_far_october.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_stare_at_momoi_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/goals/stare_at_momoi.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/goals/stare_at_momoi.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/goals/stare_at_momoi.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_new_weapon_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/goals/new_weapon.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/goals/new_weapon.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/goals/new_weapon.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_rebuild_red_guard_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/goals/rebuild_red_guard.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/goals/rebuild_red_guard.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/goals/rebuild_red_guard.png # Change to the focus icon
+            animationtexturefile = gfx/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+}

@@ -1,0 +1,266 @@
+focus_tree = {
+	id = KOM_communist_ready
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KOM
+		}
+	}
+	default = no
+	focus = {
+		id = KOM_something_changed
+		icon = GFX_something_changed
+		cost = 10
+		x = 8
+		y = 0
+	}
+	focus = {
+		id = KOM_zhdanov_s_plan
+		icon = GFX_zhdanov_s_plan
+		cost = 10
+		x = 8
+		y = 1
+		prerequisite = {
+			focus = KOM_something_changed
+		}
+	}
+	focus = {
+		id = KOM_coordinate_susulov
+		icon = GFX_coordinate_susulov
+		cost = 10
+		x = 7
+		y = 2
+		prerequisite = {
+			focus = KOM_zhdanov_s_plan
+		}
+	}
+	focus = {
+		id = KOM_communicate_with_bukharina
+		icon = GFX_communicate_with_bukharina
+		cost = 10
+		x = 9
+		y = 2
+		prerequisite = {
+			focus = KOM_zhdanov_s_plan
+		}
+	}
+	focus = {
+		id = KOM_show_time
+		icon = GFX_show_time
+		cost = 10
+		x = 8
+		y = 3
+		prerequisite = {
+			focus = KOM_coordinate_susulov
+			focus = KOM_communicate_with_bukharina
+		}
+		prerequisite = {
+			focus = KOM_communicate_with_bukharina
+		}
+		prerequisite = {
+			focus = KOM_coordinate_susulov
+		}
+	}
+	focus = {
+		id = KOM_order_angel
+		icon = GFX_order_angel
+		cost = 10
+		x = 3
+		y = 4
+		prerequisite = {
+			focus = KOM_show_time
+		}
+	}
+	focus = {
+		id = KOM_suslov_s_opinion
+		icon = GFX_suslov_s_opinion
+		cost = 10
+		x = 2
+		y = 5
+		prerequisite = {
+			focus = KOM_order_angel
+		}
+		mutually_exclusive = {
+			focus = KOM_zhdanov_s_opinion
+		}
+	}
+	focus = {
+		id = KOM_zhdanov_s_opinion
+		icon = GFX_zhdanov_s_opinion
+		cost = 10
+		x = 4
+		y = 5
+		prerequisite = {
+			focus = KOM_order_angel
+		}
+		mutually_exclusive = {
+			focus = KOM_suslov_s_opinion
+		}
+	}
+	focus = {
+		id = KOM_information_line
+		icon = GFX_information_line
+		cost = 10
+		x = 8
+		y = 4
+		prerequisite = {
+			focus = KOM_show_time
+		}
+	}
+	focus = {
+		id = KOM_centerist_s_secret
+		icon = GFX_centerist_s_secret
+		cost = 10
+		x = 7
+		y = 5
+		prerequisite = {
+			focus = KOM_information_line
+		}
+	}
+	focus = {
+		id = KOM_rightist_s_plot
+		icon = GFX_rightist_s_plot
+		cost = 10
+		x = 9
+		y = 5
+		prerequisite = {
+			focus = KOM_information_line
+		}
+	}
+	focus = {
+		id = KOM_the_army
+		icon = GFX_the_army
+		cost = 10
+		x = 8
+		y = 6
+		prerequisite = {
+			focus = KOM_rightist_s_plot
+		}
+		prerequisite = {
+			focus = KOM_centerist_s_secret
+		}
+	}
+	focus = {
+		id = KOM_the_Cheka
+		icon = GFX_the_Cheka
+		cost = 10
+		x = 8
+		y = 7
+		prerequisite = {
+			focus = KOM_the_army
+		}
+	}
+	focus = {
+		id = KOM_add_paramillitarys
+		icon = GFX_add_paramillitarys
+		cost = 10
+		x = 13
+		y = 5
+		prerequisite = {
+			focus = KOM_the_far_october
+		}
+	}
+	focus = {
+		id = KOM_new_weapon
+		icon = GFX_new_weapon
+		cost = 10
+		x = 12
+		y = 6
+		prerequisite = {
+			focus = KOM_add_paramillitarys
+		}
+	}
+	focus = {
+		id = KOM_stare_at_momoi
+		icon = GFX_stare_at_momoi
+		cost = 10
+		x = 14
+		y = 6
+		prerequisite = {
+			focus = KOM_add_paramillitarys
+		}
+	}
+	focus = {
+		id = KOM_the_far_october
+		icon = GFX_the_far_october
+		cost = 10
+		x = 13
+		y = 4
+		prerequisite = {
+			focus = KOM_show_time
+		}
+	}
+	focus = {
+		id = KOM_rebuild_red_guard
+		icon = GFX_rebuild_red_guard
+		cost = 10
+		x = 13
+		y = 7
+		prerequisite = {
+			focus = KOM_new_weapon
+		}
+		prerequisite = {
+			focus = KOM_stare_at_momoi
+		}
+	}
+	focus = {
+		id = KOM_harder_protect
+		icon = GFX_harder_protect
+		cost = 10
+		x = 4
+		y = 6
+		prerequisite = {
+			focus = KOM_zhdanov_s_opinion
+		}
+	}
+	focus = {
+		id = KOM_in_the_ResearchInstitute
+		icon = GFX_in_the_ResearchInstitute
+		cost = 10
+		x = 4
+		y = 7
+		prerequisite = {
+			focus = KOM_harder_protect
+		}
+	}
+	focus = {
+		id = KOM_relax_constraints
+		icon = GFX_relax_constraints
+		cost = 10
+		x = 2
+		y = 6
+		prerequisite = {
+			focus = KOM_suslov_s_opinion
+		}
+	}
+	focus = {
+		id = KOM_in_the_school
+		icon = GFX_in_the_school
+		cost = 10
+		x = 2
+		y = 7
+		prerequisite = {
+			focus = KOM_relax_constraints
+		}
+	}
+	focus = {
+		id = KOM_let_us_wait
+		icon = GFX_focus_generic_elections_1
+		cost = 10
+		x = 8
+		y = 9
+		prerequisite = {
+			focus = KOM_the_Cheka
+		}
+		prerequisite = {
+			focus = KOM_in_the_ResearchInstitute
+		}
+		prerequisite = {
+			focus = KOM_in_the_school
+		}
+		prerequisite = {
+			focus = KOM_rebuild_red_guard
+		}
+	}
+}

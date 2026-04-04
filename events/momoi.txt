@@ -1,0 +1,278 @@
+add_namespace = momoi
+country_event = {
+	id = momoi.0
+	title = momoi.0.t
+	desc = momoi.0.d
+	fire_only_once = yes
+
+	hidden = no
+
+	option = {
+		name = momoi.0.a
+		country_event = {id = momoi.1}
+        custom_effect_tooltip = momoi.0.a.tt
+    }
+    option = {
+        name = momoi.0.b
+        complete_national_focus = KOM_something_changed
+        hidden_effect = {
+            log = "[GetDateText]: [Root.GetName]: Decision remove KOM_load_starting_tree"
+            load_focus_tree = KOM_communist_ready
+            set_temp_variable = { momoi_mental_condition_temp = +25 }
+            KOM_momoi_mental_condition_change = yes
+            set_temp_variable = { KOM_ready_temp = +50 }
+		    KOM_momoi_center_ready_change = yes
+            set_temp_variable = { KOM_ready_temp = -50 }
+		    KOM_momoi_self_ready_change = yes
+            set_country_flag = has_momoi
+            set_country_flag = momoi_alive
+            country_event = {id = momoi.15 days = 30}
+            add_dynamic_modifier = { modifier = momoi_dynamic_modifier }
+        }
+    custom_effect_tooltip = momoi.0.b.tt
+    }
+}
+
+country_event = {
+	id = momoi.8
+	title = momoi.8.t
+	desc = momoi.8.d
+	picture = star
+    fire_only_once = yes
+
+	hidden = no
+
+	option = {
+		name = momoi.8.a
+		custom_effect_tooltip = momoi.8.tt
+	}
+}
+
+country_event = {
+	id = momoi.1
+    title = momoi.1.t
+    desc = momoi.1.d
+    picture = forest
+    fire_only_once = yes
+    
+	hidden = no
+   
+    option = {
+		name = momoi.1.a
+	    custom_effect_tooltip = momoi.1.tt
+        country_event = {id = momoi.2}
+    }
+}
+
+country_event = {
+	id = momoi.2
+    title = momoi.2.t
+    desc = momoi.2.d
+    is_triggered_only = yes
+    picture = forest_2
+    fire_only_once = yes
+    
+	hidden = no
+    
+	option = {
+		name = momoi.2.a
+        custom_effect_tooltip = momoi.2.tt
+        country_event = {days = 1 id = momoi.3}
+	    
+    }
+}
+
+country_event = {
+	id = momoi.3
+    title = momoi.3.t
+    desc = momoi.3.d
+    picture = GFX_germany_air_force
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+    
+	hidden = no
+    
+	option = {
+		name = momoi.3.a
+        country_event = {id = momoi.4}
+    }
+}
+
+country_event = {
+    id = momoi.4
+    title = momoi.4.t
+    desc = momoi.4.d
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+    
+    hidden = no
+    
+    option = {
+        name = momoi.4.a
+        set_temp_variable = { momoi_mental_condition_temp = +25 }
+        KOM_momoi_mental_condition_change = yes
+        country_event = {id = momoi.5}
+    }
+}
+
+country_event = {
+    id = momoi.5
+    title = momoi.5.t
+    desc = momoi.5.d
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+    
+    hidden = no
+    
+    option = {
+        name = momoi.5.a
+        custom_effect_tooltip = momoi.5.tt
+        set_country_flag = has_momoi
+        country_event = {id = momoi.6}
+        hidden_effect = {
+        set_temp_variable = { KOM_ready_temp = +50 }
+		KOM_momoi_center_ready_change = yes
+        set_temp_variable = { KOM_ready_temp = -50 }
+		KOM_momoi_self_ready_change = yes
+        }
+    }
+}
+
+country_event = {
+    id = momoi.6
+    title = momoi.6.t
+    desc = momoi.6.d
+    is_triggered_only = yes
+    picture = tank
+    fire_only_once = yes
+    
+    hidden = no
+    
+    option = {
+        custom_effect_tooltip = momoi.6.tt
+        name = momoi.6.a
+        country_event = {id = momoi.7}
+    }
+}
+
+country_event = {
+    id = momoi.7
+    title = momoi.7.t
+    desc = momoi.7.d
+    is_triggered_only = yes
+    picture = zhdanov
+    fire_only_once = yes
+    hidden = no
+    option = {
+        custom_effect_tooltip = momoi.7.tt
+        set_country_flag = zhdanov_call
+        name = momoi.7.a
+        complete_national_focus = KOM_something_changed
+        hidden_effect = {
+            log = "[GetDateText]: [Root.GetName]: Decision remove KOM_load_starting_tree"
+            load_focus_tree = KOM_communist_ready
+            
+        }
+    }
+}
+
+country_event = {
+    id = momoi.9
+    title = momoi.9.t
+    desc = momoi.9.d
+    picture = Syktyvkar
+    is_triggered_only = yes
+    hidden = no
+    option = {
+        name = momoi.9.a
+        country_event = {id = momoi.11}
+    }
+}
+
+country_event = {
+    id = momoi.10
+    title = momoi.10.t
+    desc = momoi.10.d
+    is_triggered_only = yes
+    hidden = no
+    option = {
+        name = momoi.10.a
+    }
+}
+
+country_event = {
+    id = momoi.11
+    title = momoi.11.t
+    desc = momoi.11.d
+    picture = momoi_1
+    is_triggered_only = yes
+    hidden = no
+    option = {
+        name = momoi.11.a
+        country_event = {id = momoi.12}
+    }
+}
+
+country_event = {
+    id = momoi.12
+    title = momoi.12.t
+    picture = kardashev
+    desc = momoi.12.d
+    is_triggered_only = yes
+    hidden = no
+    option = {
+        name = momoi.12.a
+        country_event = {id = momoi.13}
+    }
+}
+
+country_event = {
+    id = momoi.13
+    title = momoi.13.t
+    picture = momoi_1
+    desc = momoi.13.d
+    is_triggered_only = yes
+    hidden = no
+    option = {
+        name = momoi.13.a
+        country_event = {id = momoi.14}
+    }
+}
+
+country_event = {
+    id = momoi.14
+    title = momoi.14.t
+    picture = momoi_1
+    desc = momoi.14.d
+    is_triggered_only = yes
+    hidden = no
+    option = {
+        name = momoi.14.a
+        custom_effect_tooltip = momoi.14.tt
+        set_country_flag = momoi_alive
+        hidden_effect = {
+			country_event = {id = momoi.15 days = 30}
+		}
+        add_dynamic_modifier = { modifier = momoi_dynamic_modifier }
+    }
+}
+
+country_event = {
+    id = momoi.15
+    title = momoi.15.t
+    picture = tabi
+    desc = momoi.15.d
+    is_triggered_only = yes
+    hidden = no
+    option = {
+        name = momoi.15.a
+        custom_effect_tooltip = momoi.15.tt
+        set_temp_variable = { KOM_ready_temp = +15 }
+		KOM_momoi_right_ready_change = yes
+        set_temp_variable = { KOM_ready_temp = -10 }
+		KOM_momoi_self_ready_change = yes
+    }
+}

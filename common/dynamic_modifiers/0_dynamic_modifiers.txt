@@ -1,0 +1,6 @@
+momoi_dynamic_modifier = {
+	enable = { always = yes }
+	
+	icon = qianxinian
+	army_attack_factor = army_attack
+}
