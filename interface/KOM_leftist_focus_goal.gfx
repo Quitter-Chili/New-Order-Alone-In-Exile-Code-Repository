@@ -87,4 +87,8 @@ spritetypes = {
 		name = "GFX_rebuild_red_guard"
 	    texturefile = "gfx/goals/rebuild_red_guard.png"
     }
+	spriteType = {
+		name = "GFX_let_us_wait"
+	    texturefile = "gfx/goals/let_us_wait.png"
+    }
 }
